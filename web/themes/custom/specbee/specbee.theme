@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Hooks implementation of specbee theme.
+ */
+
+ /**
+ * Returns path to svg sprite.
+ */
+function _specbee_get_svg_sprite_path() {
+    return base_path() . \Drupal::theme()->getActiveTheme()->getPath() . '/app/images/sprite.svg';
+}
+
+/**
+ * Hook_preprocess().
+ *
+ * Prepares specbeeSvgSpritePath variable to get
+ * full path to svg sprite from twig.
+ */
+function specbee_preprocess(&$variables, $hook) {
+    $variables['specbee_SvgSpritePath'] = _specbee_get_svg_sprite_path();
+  }

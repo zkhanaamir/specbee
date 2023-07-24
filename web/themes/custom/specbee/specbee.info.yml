@@ -1,0 +1,15 @@
+name: Specbee
+type: theme
+base theme: stable9
+description: 'Specbee test custom theme'
+core_version_requirement: ^10
+
+libraries:
+  - specbee/base
+
+regions:
+  header: Header
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  content: Content
+  footer: Footer

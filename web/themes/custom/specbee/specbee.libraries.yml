@@ -1,0 +1,13 @@
+base:
+  css:
+    theme:
+      app/css/style.css: {}
+      app/css/slick.css: {}
+      app/css/slick-theme.css: {}
+  js:
+    app/js/script-min.js: {}
+    app/js/slick.min.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
+    - core/jquery

@@ -1,0 +1,8 @@
+specbee.mobileonly:
+  label: mobileonly
+  mediaQuery: 'all and (max-width: 1023px)'
+  weight: 0
+  group: specbee
+  multipliers:
+    - 1x
+    - 2x

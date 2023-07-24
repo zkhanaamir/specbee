@@ -1,0 +1,20 @@
+.conferences{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    @include respond(mobileonly){
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+.text-center{
+    text-align: center;
+}
