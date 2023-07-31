@@ -93,8 +93,19 @@
 
         &--active{
             display: block;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-name: fadeInBottom;
         }
     }
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+    to { opacity: 1 }
 }
 
 // card 
